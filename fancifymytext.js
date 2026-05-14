@@ -21,5 +21,5 @@ function boringBetty() {
 function moo() {
     let element = document.getElementById("text");
     let parts = element.value.toUpperCase().split(".");
-    element.value = parts + "-Moo";
+    element.value = parts + "-Moo.";
 }
